@@ -13,6 +13,7 @@
 		3A567B431D57D36D00535759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A567B411D57D36D00535759 /* Main.storyboard */; };
 		3A567B451D57D36D00535759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A567B441D57D36D00535759 /* Assets.xcassets */; };
 		3A567B481D57D36D00535759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A567B461D57D36D00535759 /* LaunchScreen.storyboard */; };
+		3A567B511D57D3B300535759 /* Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A567B501D57D3B300535759 /* Calculation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3A567B441D57D36D00535759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A567B471D57D36D00535759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A567B491D57D36D00535759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A567B4F1D57D3B300535759 /* Calculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculation.h; sourceTree = "<group>"; };
+		3A567B501D57D3B300535759 /* Calculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				3A567B3E1D57D36D00535759 /* ViewController.h */,
 				3A567B3F1D57D36D00535759 /* ViewController.m */,
 				3A567B411D57D36D00535759 /* Main.storyboard */,
+				3A567B4F1D57D3B300535759 /* Calculation.h */,
+				3A567B501D57D3B300535759 /* Calculation.m */,
 				3A567B441D57D36D00535759 /* Assets.xcassets */,
 				3A567B461D57D36D00535759 /* LaunchScreen.storyboard */,
 				3A567B491D57D36D00535759 /* Info.plist */,
@@ -153,6 +158,7 @@
 				3A567B401D57D36D00535759 /* ViewController.m in Sources */,
 				3A567B3D1D57D36D00535759 /* AppDelegate.m in Sources */,
 				3A567B3A1D57D36D00535759 /* main.m in Sources */,
+				3A567B511D57D3B300535759 /* Calculation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

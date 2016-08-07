@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Calculation.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    __weak IBOutlet UILabel *display;
+    Calculation *brain;
+    BOOL userIsInTheMiddleOfTyping;
+}
+
+-(IBAction)digitPressed:(UIButton *)sender;
+- (IBAction)operationPressed:(UIButton *)sender;
 
 
 @end
